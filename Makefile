@@ -37,7 +37,6 @@ stop:
 			@sudo docker stop $(IMAGENAME)
 
 clean:
-			@sudo docker stop $(IMAGENAME)
 			@sudo docker rmi $(IMAGENAME)
 
 all: build run

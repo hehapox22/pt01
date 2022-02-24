@@ -2,6 +2,16 @@
 probetag
 
 
+### use a docker container with sshd
+
+all commands are done via make command.
+
+* build
+* run
+* stop
+* clean
+
+
 
 
 
@@ -30,4 +40,18 @@ Host ubuntu-sshd
  Port 2022
  User ubuntu
 EOF
+```
+
+
+#### stop container
+
+```
+make stop
+```
+
+
+### cleanup image
+
+```
+make clean
 ```
